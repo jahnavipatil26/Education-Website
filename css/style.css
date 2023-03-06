@@ -1,0 +1,480 @@
+/* ----------------------------------------------------------- HOME PAGE ----------------------------------------------------- */
+
+body {
+    position: relative;
+    padding-top: 4.5rem;
+  }
+
+/* Inside Home Header (+Navigation Bar) */
+
+.container-fluid{
+    padding: 1% 6%;
+}
+
+#navbar-everywhere{
+    padding: 1% 6%;
+}
+
+/* ---> Navigation Bar  */
+
+.navbar{
+    padding-bottom: 2rem;
+    padding-left: 10px;
+}
+
+.navbar-brand{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.nav-link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.nav-link:hover{
+    color: #ef8172;
+}
+
+span{
+    color: red;
+}
+
+.nav-item{
+    padding: 0 12px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+
+/* ---> Navigation Bar Ends */
+
+.home-h1{
+    font-family: 'Abril Fatface', cursive;
+    line-height: 1.2;
+    font-size: 3.3rem;
+    width: 70%;
+    margin-left: 3.375rem;
+    margin-top: 2.75rem;
+}
+
+
+.home-p{
+    font-family: 'Merriweather', serif;
+    margin-left: 3.375rem;
+    margin-top: 5%;
+    line-height: 2;
+    font-size: 0.95rem;
+    width: 65%;
+}
+
+#home-row{
+    padding: 10px;
+    border-radius: 20px 50px;
+    background-color: #F9F4EF;
+    position: relative;
+}
+
+/* Download Buttons */
+
+.download-button{
+    margin: 4% 3% 5% 3.375rem;
+}
+
+/* Home Image */
+
+.studying{
+    width: 72%;
+    margin: 20px auto 30px 60px;
+}
+
+
+.yellow-flower{
+    width: 30px;
+    position: absolute;
+    top: 51px;
+    left: 67px;
+}
+
+/* Home Header Ends  */
+
+/* Features Section */
+
+#features {
+    padding: 3.5% 7% 10px 7%;
+    margin-bottom: 50px;
+}
+
+.features-box1 {
+    padding: 3% 5%;
+}
+
+.feat-h1{
+    text-align: center;
+    margin-top: 9px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.features-box1.col-lg-6.para{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    line-height: 1.7;
+}
+
+.purple-flower1{
+    width: 30px;
+    margin: 0 auto 15px auto;
+}
+
+.feat-img{
+    width: 360px;
+}
+
+.features-box2 {
+    text-align: center;
+}
+
+.div1{
+    height: 170px;
+    width: 160px;
+    margin: 70px auto 0 auto;
+    border-radius: 20px;
+    background-color: #fbdece;
+}
+
+.div1:hover{
+    background-color: #dfbacd;
+}
+
+.feat-h3{
+    padding: 8%;
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.img-div1{
+    width: 30px;
+    margin: 18px auto 6px auto;
+}
+
+.star{
+    width: 50px;
+    position: absolute;
+}
+
+.star1{
+    width: 26px;
+    padding-top: 50px;
+}
+
+/* Features Section Ends */
+
+/* Testimonials section */
+
+
+#testimonials {
+    padding: 2% 7% 1.5%;
+    text-align: center;
+    background-color: #F9F4EF;
+}
+
+.testimonial{
+    font-family: 'Merriweather', serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 2;
+    padding: 0;
+    margin: 40px auto 20px auto;
+    width: 65%;
+}
+
+em{
+    font-family: 'Merriweather', serif;
+}
+
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    padding: 1% 7% 0;
+    text-align: center;
+    background-color: #F9F4EF;
+}
+
+hr
+{
+    border-color: #5D9C59;
+    border-style: dotted none none; 
+    border-width: 5px;
+    width: 4%;
+    margin: 30px auto 10px;
+}
+
+.press-logo{
+    width: 20%;
+    margin: 30px 20px 40px;
+}
+
+/* Teachers */
+
+#teachers{
+    padding: 80px 100px 30px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.teachers-column{
+    padding: 3% 2%;
+}
+
+.teach-card{
+    border-style: dotted;
+    border-width: 3px;
+    border-color: #ef8172;
+}
+
+.teacher-img{
+    width: 75%;
+    height: 75%;
+    margin: 5px auto 2px;
+}
+
+.teach-h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2.3rem;
+    padding-bottom: 20px;
+}
+
+.teach-p{
+    font-family: 'Merriweather', serif;
+    font-size: 0.9rem;
+}
+
+.card-link i:hover {
+    background: #ff4c68;
+    color: white;
+    border-color: white;
+}
+
+.card-link i{
+    color: black;
+    padding: 5px 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* Contact Us */
+
+#footer{
+    background-color: #F9F4EF;
+}
+
+#footer1{
+    background-color: #f0eff9;
+}
+
+#footer2{
+    background-color: #eff4f9;
+}
+
+#footer3{
+    background-color: #eff9ef;
+}
+
+/* ----------------------------------------------------------- ABOUT US PAGE ----------------------------------------------------- */
+
+/* About Us */
+
+.aboutus-h1{
+    font-family: 'Abril Fatface', cursive;
+    line-height: 1.2;
+    font-size: 3.3rem;
+    width: 70%;
+    margin-left: 3.375rem;
+    margin-top: 2.4rem;
+}
+
+.aboutus-p{
+    font-family: 'Merriweather', serif;
+    margin-left: 3.375rem;
+    margin-top: 6%;
+    padding-bottom: 20px;
+    line-height: 1.7;
+    font-size: 0.95rem;
+}
+
+.aboutus-p1{
+    font-family: 'Merriweather', serif;
+    margin-left: 3.375rem;
+    margin-top: 2%;
+    padding-bottom: 20px;
+    line-height: 1.7;
+    font-size: 0.95rem;
+}
+
+#about-row{
+    padding: 10px;
+    border-radius: 20px 50px;
+    background-color: #f0eff9;
+    position: relative;
+}
+
+.purple-flower{
+    width: 30px;
+    position: absolute;
+    top: 44px;
+    left: 75px;
+}
+
+/* About Us Image */
+
+.aboutus-studying{
+    width: 68%;
+    margin: 105px 0 30px 90px;
+}
+
+/* About Us Ends */
+
+/* Features Section in About Us */
+
+#features-abt {
+    padding: 4% 10%;
+}
+
+.features-box-abt {
+    text-align: center;
+    padding: 5% 3%;
+}
+
+.icon{
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
+.icon-h3 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.icon-p{
+    font-family: 'Merriweather', serif;
+    margin-top: 0;
+}
+
+/* ----------------------------------------------------------- COURSES PAGE ----------------------------------------------------- */
+
+#course-row{
+    padding: 10px 100px 0;
+    background-color: #eff4f9;
+    border-radius: 20px 50px;
+    text-align: center;
+}
+
+
+.course-h1{
+    font-family: 'Abril Fatface', cursive;
+    line-height: 1.2;
+    font-size: 3.3rem;
+    width: 70%;
+    margin-left: 3.375rem;
+    margin-top: 2.4rem;
+}
+
+.course-p{
+    font-family: 'Merriweather', serif;
+    margin-left: 3.375rem;
+    margin-top: 2%;
+    line-height: 1.7;
+    font-size: 0.95rem;
+}
+
+.course-img{
+    width: 60px;
+}
+
+.course-h3{
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.course-h6 {
+    font-family: 'Merriweather', serif;
+    font-size: 0.8rem;
+    color: darkgrey;
+}
+
+.course-h5 {
+    font-size: 1rem;
+    color: #fdc93b;
+}
+
+.list-group-item{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.4rem;
+    padding-left: 0;
+}
+
+.course-btn{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.course-column{
+    padding: 3% 2%;
+    text-align: start;
+}
+
+
+/* -----------------------------------------------------Specific Course -----------------------------------------------------*/
+
+#course1-row{
+    padding: 10px 80px 0;
+    background-color: #eff9ef;
+    border-radius: 20px 50px;
+    text-align: center;
+}
+
+
+.course1-h3{
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.course1-h6 {
+    font-family: 'Merriweather', serif;
+    font-size: 0.8rem;
+    color: darkgrey;
+}
+
+.course1-h5 {
+    font-size: 1.1rem;
+    color: #fdc93b;
+}
+
+.l1{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    padding-left: 0;
+}
+
+.course-btn{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.course-column{
+    padding: 3% 2%;
+    text-align: start;
+}
+
